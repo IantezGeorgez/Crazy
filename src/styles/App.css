@@ -1,0 +1,20 @@
+#main {
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  #main {
+    flex-direction: column;
+  }
+}
+
+.MuiSnackbarContent-root {
+  color: white !important;
+  background-color: #be3144 !important;
+  font-family: "Raleway", sans-serif !important;
+  text-align: center !important;
+}
+
+.MuiSnackbarContent-message {
+  width: 100%;
+}

@@ -1,0 +1,152 @@
+.iconNameNavBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.5s ease-in;
+  font-size: large;
+  color: #b2b2b2;
+}
+
+.activeNavBar {
+  color: #be3144;
+}
+
+.iconNameNavBar:hover {
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  color: #be3144;
+}
+
+.nameNavBar {
+  padding-left: 10%;
+  box-sizing: border-box;
+}
+
+.timeLineInactive {
+  color: #181719;
+}
+
+.timeLineActiveCurrect {
+  color: #be3144;
+}
+.timeLineActive {
+  color: white;
+}
+
+.timeLineName {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 2.5rem;
+  padding-top: 5%;
+}
+
+.timeLineRole {
+  position: relative;
+  top: 28%;
+  font-size: 1.6rem !important;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.timeLineDuration {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.oneSkill {
+  text-align: center;
+  border: 1px solid #b2b2b2;
+}
+
+.oneSkillText {
+  font-family: "Raleway", sans-serif !important;
+  text-transform: uppercase;
+  color: #be3144;
+}
+
+.oneSkillImage {
+  width: 100%;
+  height: auto;
+}
+
+.oneProjectCard {
+  border-radius: 0px !important;
+  border: 1px solid #b2b2b2;
+}
+
+.oneProjectCardContenImage{
+  height: 17rem;
+}
+
+.oneProjectCardContent {
+  background-color: #181719;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.oneProjectCardContentHeading {
+  color: #be3144 !important;
+  font-family: "Raleway", sans-serif !important;
+  text-align: center;
+}
+
+.oneProjectCardContentData {
+  color: white !important;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.oneProjectCardContentButton {
+  color: #be3144 !important;
+  border-color: #be3144 !important;
+  font-family: "Raleway", sans-serif !important;
+  margin-bottom: 2% !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .iconNameNavBar:hover {
+    letter-spacing: 0px;
+  }
+
+  .iconNavBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iconNameNavBar:hover {
+    letter-spacing: 0px;
+  }
+
+  .iconNavBar {
+    display: inline;
+  }
+
+  .nameNavBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .timeLineName {
+    font-size: 2rem;
+    padding-top: 5%;
+  }
+
+  .timeLineRole {
+    position: relative;
+    top: 28%;
+    font-size: 1.1rem !important;
+  }
+
+  .timeLineDuration {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .timeLineName {
+    font-size: 1.3rem;
+    padding-top: 25%;
+  }
+
+  .timeLineDuration {
+    font-size: 0.8rem;
+  }
+}
