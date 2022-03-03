@@ -45,7 +45,7 @@ const NavBarComponent = () => {
       newData.push(iterator);
     }
     setdata(newData);
-  }, []);
+  }, [data]);
 
   const updateSelected = (keyWord) => {
     const newData = [];
