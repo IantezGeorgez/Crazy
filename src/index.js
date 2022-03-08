@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const showTwoPage = /calcutta|kolkata/.test(Intl.DateTimeFormat().resolvedOptions().timeZone.toLowerCase())
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App show = {showTwoPage}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

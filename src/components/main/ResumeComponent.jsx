@@ -3,16 +3,20 @@ import React, { useState } from "react";
 import style from "../../styles/MainComponent.module.css";
 import resume from "../../images/dhbr.jpg";
 import resumePdf from "../../images/dhbr.pdf";
+import resumerd from "../../images/dhbrd.jpg";
+import resumePdfrd from "../../images/dhbrd.pdf";
 import SlideComponent from "../helper/SlideComponent";
 
-const ResumeComponent = () => {
+const ResumeComponent = ({ showtp }) => {
   const [show, setShow] = useState(true);
   const [dwn, setDwn] = useState(false);
 
   return (
     <div className={style.resumeComponent}>
       <SlideComponent direction="right">
-        <h2><u>Resume</u></h2>
+        <h2>
+          <u>Resume</u>
+        </h2>
       </SlideComponent>
       <SlideComponent direction="top">
         <div className={style.resumeComponentButtonContainer}>
@@ -26,7 +30,7 @@ const ResumeComponent = () => {
           </Button>
 
           <a
-            href={resumePdf}
+            href={showtp ? resumePdfrd : resumePdf}
             download="dhiraj.pdf"
             style={{ textDecoration: "none" }}
           >
@@ -55,7 +59,7 @@ const ResumeComponent = () => {
           <div className={style.resumeComponentImageContainer}>
             <img
               className={style.resumeComponentImage}
-              src={resume}
+              src={showtp ? resumerd : resume}
               alt="dhiraj resume"
             />
           </div>

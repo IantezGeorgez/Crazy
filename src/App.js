@@ -9,7 +9,7 @@ import Work from "./pages/Work";
 import NotFound from "./pages/NotFound";
 import Projects from "./pages/Projects";
 
-function App() {
+function App({show}) {
   return (
     <div id="main">
       <BrowserRouter>
@@ -18,8 +18,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="skills" element={<Skills />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="work" element={<Work />} />
-          <Route path="resume" element={<About />} />
+          <Route path="work" element={<Work show={show}/>} />
+          <Route path="resume" element={<About show={show}/>} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
