@@ -26,7 +26,7 @@ const HomeComponent = () => {
             <span style={{ color: "#be3144" }}>
               <Typewriter
                 options={{
-                  strings: ["React Developer.", "Java Full Stack Developer.", "Front End Developer."],
+                  strings: ["React Developer .", "Front End Developer .", "Software Engineer ."],
                   autoStart: true,
                   loop: true,
                 }}
