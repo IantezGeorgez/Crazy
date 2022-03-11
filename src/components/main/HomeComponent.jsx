@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from 'typewriter-effect';
 import style from "../../styles/MainComponent.module.css";
 import SlideComponent from "../helper/SlideComponent";
 import DhirajImage from "../../images/dhb.png";
@@ -6,7 +7,7 @@ import DhirajImage from "../../images/dhb.png";
 const HomeComponent = () => {
   return (
     <div className={style.homeComponent}>
-          <SlideComponent direction="right">
+      <SlideComponent direction="right">
         <div className={style.homeComponentImageContainer}>
           <img
             className={style.homeComponentImage}
@@ -14,17 +15,27 @@ const HomeComponent = () => {
             alt="Dhiraj in a boat"
           />
         </div>
-        </SlideComponent>
-        <SlideComponent direction="down">
+      </SlideComponent>
+      <SlideComponent direction="down">
         <div className={style.homeComponentText}>
-          <h1 className={style.homeComponentHeading}>I'm <span className={style.fsd} >Dhiraj</span></h1>
+          <h1 className={style.homeComponentHeading}>
+            I'm <span className={style.fsd}>Dhiraj</span>
+          </h1>
           <div className={style.homeComponentBody}>
-            Working as <span style={{color:"#be3144"}}>Front End Developer</span>.<br/> Feel free to navigate the
-            portfolio, Cheers 🍺
+            Working as{" "}
+            <span style={{ color: "#be3144" }}>
+              <Typewriter
+                options={{
+                  strings: ["React Developer.", "Java Full Stack Developer.", "Front End Developer."],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
           </div>
         </div>
-    </SlideComponent>
-      </div>
+      </SlideComponent>
+    </div>
   );
 };
 

@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const showTwoPage = /calcutta|kolkata/.test(Intl.DateTimeFormat().resolvedOptions().timeZone.toLowerCase())
-
+// If ture only developement experience resume will be shown else IT experience resume will be shown
+// const showTwoPage = /calcutta|kolkata/.test(Intl.DateTimeFormat().resolvedOptions().timeZone.toLowerCase())
+const showTwoPage = false;
 
 ReactDOM.render(
   <React.StrictMode>
-    <App show = {showTwoPage}/>
+    <App show={showTwoPage} />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

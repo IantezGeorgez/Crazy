@@ -99,7 +99,7 @@
 }
 
 .fsd {
-  animation: fs 3s linear 0s infinite alternate;
+  animation: fs 2s linear 0s infinite alternate;
 }
 
 @keyframes fs {
@@ -108,7 +108,7 @@
   }
 
   50% {
-    color: #be3144;
+    color: #c05866;
   }
 
   100% {

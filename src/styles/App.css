@@ -2,12 +2,6 @@
   display: flex;
 }
 
-@media screen and (max-width: 1024px) {
-  #main {
-    flex-direction: column;
-  }
-}
-
 .MuiSnackbarContent-root {
   color: white !important;
   background-color: #be3144 !important;
@@ -17,4 +11,22 @@
 
 .MuiSnackbarContent-message {
   width: 100%;
+}
+
+.Typewriter{
+  display: inline ;
+}
+
+@media screen and (max-width: 1024px) {
+  #main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .Typewriter{
+    display: block ;
+  }
+
 }
