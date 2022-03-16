@@ -4,9 +4,9 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-// true 2 years , false 6 years
-// const showTwoPage = /calcutta|kolkata/.test(Intl.DateTimeFormat().resolvedOptions().timeZone.toLowerCase())
-const showTwoPage = true
+const showTwoPage = /calcutta|kolkata/.test(
+  Intl.DateTimeFormat().resolvedOptions().timeZone.toLowerCase()
+);
 
 ReactDOM.render(
   <React.StrictMode>
