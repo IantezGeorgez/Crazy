@@ -8,9 +8,11 @@ const showTwoPage = /calcutta|kolkata/.test(
   Intl.DateTimeFormat().resolvedOptions().timeZone.toLowerCase()
 );
 
+const showResume = false;
+
 ReactDOM.render(
   <React.StrictMode>
-    <App show={showTwoPage} />
+    <App show={showTwoPage} resume={showResume} />
   </React.StrictMode>,
   document.getElementById("root")
 );

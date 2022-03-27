@@ -7,7 +7,7 @@ const NavBarList = (props) => {
 
   const linkClicked = () =>{
     navigate(props.path)
-    props.updateSelected(props.name)
+    props.downdateSelected(props.name)
   }
 
   return (

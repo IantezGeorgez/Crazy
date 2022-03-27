@@ -16,7 +16,7 @@ const ContactComponent = () => {
       <SlideComponent direction="right">
         <h4 className={style.contactComponentHfour}>ways to reach me</h4>
       </SlideComponent>
-      <SlideComponent direction="top">
+      <SlideComponent direction="down">
         <div className={style.contactComponentIcons}>
           <a
             className={style.contactComponentLink}

@@ -18,7 +18,7 @@ const ResumeComponent = ({ showtp }) => {
           <u>Resume</u>
         </h2>
       </SlideComponent>
-      <SlideComponent direction="top">
+      <SlideComponent direction="down">
         <div className={style.resumeComponentButtonContainer}>
           <Button
             className={style.resumeComponentButton}
@@ -48,7 +48,7 @@ const ResumeComponent = ({ showtp }) => {
               autoHideDuration={5000}
               onClose={() => setDwn(false)}
               message="RESUME DOWNLOADED &#128513;"
-              anchorOrigin={{ vertical: "top", horizontal: "right" }}
+              anchorOrigin={{ vertical: "down", horizontal: "right" }}
               variant
             />
           </a>

@@ -1,4 +1,4 @@
-import "./styles/App.css"
+import "./styles/App.css";
 import Home from "./pages/Home";
 import NavBar from "./pages/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -9,17 +9,19 @@ import Work from "./pages/Work";
 import NotFound from "./pages/NotFound";
 import Projects from "./pages/Projects";
 
-function App({show}) {
+function App({ show, resume }) {
   return (
     <div id="main">
       <BrowserRouter>
-      <NavBar />
+        <NavBar resume={resume} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="skills" element={<Skills />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="work" element={<Work show={show}/>} />
-          <Route path="resume" element={<About show={show}/>} />
+          <Route path="work" element={<Work show={show} />} />
+          {resume ? (
+            <Route path="resume" element={<About show={show} />} />
+          ) : null}
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -8,8 +8,16 @@ const WorkComponent = ({ show }) => {
   show
     ? (data = [
         {
-          name: "THIS IS DMG! GmbH",
+          name: "SMARTQ",
           color: "success",
+          duration: "Working from March 2022",
+          icon: "js",
+          direction: "down",
+          role: "FRONT-END DEVELOPER",
+        },
+        {
+          name: "THIS IS DMG! GmbH",
+          color: "info",
           duration: "1 YEAR 9 MONTHS",
           icon: "js",
           direction: "right",
@@ -20,14 +28,22 @@ const WorkComponent = ({ show }) => {
           color: "info",
           duration: "6 MONTHS",
           icon: "js",
-          direction: "top",
+          direction: "down",
           role: "FRONT-END DEVELOPER",
         },
       ])
     : (data = [
         {
-          name: "THIS IS DMG! GmbH",
+          name: "SMARTQ",
           color: "success",
+          duration: "Working from March 2022",
+          icon: "js",
+          direction: "down",
+          role: "FRONT-END DEVELOPER",
+        },
+        {
+          name: "THIS IS DMG! GmbH",
+          color: "info",
           duration: "1 YEAR 9 MONTHS",
           icon: "js",
           direction: "right",
@@ -38,7 +54,7 @@ const WorkComponent = ({ show }) => {
           color: "info",
           duration: "6 MONTHS",
           icon: "js",
-          direction: "top",
+          direction: "down",
           role: "FRONT-END DEVELOPER",
         },
         {
@@ -54,7 +70,7 @@ const WorkComponent = ({ show }) => {
           color: "info",
           duration: "3 MONTHS",
           icon: "intern",
-          direction: "top",
+          direction: "down",
           role: "JAVA DEVELOPER TRAINEE",
         },
       ]);
@@ -63,7 +79,7 @@ const WorkComponent = ({ show }) => {
     <div className={style.workComponent}>
       <Timeline className={style.timeLineWrapper} position="alternate">
         {data.map((a) => (
-          <TimeLineComponent key={a} tl={a} />
+          <TimeLineComponent key={a.duration} tl={a} />
         ))}
       </Timeline>
     </div>

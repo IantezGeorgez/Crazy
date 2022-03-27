@@ -12,7 +12,7 @@ import SlideComponent from "./SlideComponent";
 
 const OneProject = (props) => {
   return (
-    <SlideComponent direction="top">
+    <SlideComponent direction="down">
     <Card className={style.oneProjectCard}>
       <CardMedia  className={style.oneProjectCardContenImage} component="img" alt={props.name} image={props.src}/>
       <CardContent className={style.oneProjectCardContent}>

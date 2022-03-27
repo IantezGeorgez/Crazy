@@ -175,7 +175,7 @@ const ProjectComponent = () => {
       </h3>
       <div className={style.projectComponentGrid}>
         {data.map((a) => (
-          <OneProject key={a} {...a} />
+          <OneProject key={a.name} {...a} />
         ))}
       </div>
     </div>
