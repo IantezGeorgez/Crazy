@@ -10,7 +10,7 @@ import qm from "../../images/prj/quote.PNG";
 import mdp from "../../images/prj/markdown.PNG";
 import dm from "../../images/prj/drum.PNG";
 import calc from "../../images/prj/calculator.PNG";
-import clk from "../../images/prj/25+5Clock.PNG";
+import clk from "../../images/prj/clock.PNG";
 import em from "../../images/prj/empMng.png";
 import is from "../../images/prj/imageSearch.jpeg";
 import mg from "../../images/prj/meme.jpeg";

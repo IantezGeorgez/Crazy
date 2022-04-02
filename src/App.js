@@ -18,7 +18,7 @@ function App({ show, resume }) {
           <Route path="/" element={<Home />} />
           <Route path="skills" element={<Skills />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="work" element={<Work show={show} />} />
+          <Route path="work" element={<Work/>} />
           {resume ? (
             <Route path="resume" element={<About show={show} />} />
           ) : null}

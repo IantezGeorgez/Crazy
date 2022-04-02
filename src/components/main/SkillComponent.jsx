@@ -8,6 +8,7 @@ import sass from "../../images/skills/sass.png";
 import react from "../../images/skills/react.png";
 import redux from "../../images/skills/redux.png";
 import mui from "../../images/skills/mui.png";
+import ant from "../../images/skills/ant.png";
 import bootstrap from "../../images/skills/bootstrap.png";
 import git from "../../images/skills/git.png";
 
@@ -16,6 +17,7 @@ const data = [
   { name: "css", path: css, alt: "css" },
   { name: "sass", path: sass, alt: "sass" },
   { name: "bootstrap", path: bootstrap, alt: "bootstrap" },
+  { name: "ant design", path: ant, alt: "ant" },
   { name: "material ui", path: mui, alt: "mui" },
   { name: "javascript", path: js, alt: "js" },
   { name: "react", path: react, alt: "react" },

@@ -4,9 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-const showTwoPage = /calcutta|kolkata/.test(
-  Intl.DateTimeFormat().resolvedOptions().timeZone.toLowerCase()
-);
+// const showTwoPage = /calcutta|kolkata/.test(
+//   Intl.DateTimeFormat().resolvedOptions().timeZone.toLowerCase()
+// );
+
+const showTwoPage = true
 
 const showResume = false;
 
