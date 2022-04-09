@@ -11,6 +11,10 @@ import mui from "../../images/skills/mui.png";
 import ant from "../../images/skills/ant.png";
 import bootstrap from "../../images/skills/bootstrap.png";
 import git from "../../images/skills/git.png";
+import java from "../../images/skills/java.png";
+import sb from "../../images/skills/springBoot.png";
+import pssql from "../../images/skills/pssql.png";
+import mdb from "../../images/skills/mongo.png";
 
 const data = [
   { name: "html", path: html, alt: "html" },
@@ -22,7 +26,12 @@ const data = [
   { name: "javascript", path: js, alt: "js" },
   { name: "react", path: react, alt: "react" },
   { name: "redux", path: redux, alt: "redux" },
-  { name: "git", path: git, alt: "git" }
+  { name: "git", path: git, alt: "git" },
+  { name: "java", path: java, alt: "java" },
+  { name: "spring boot", path: sb, alt: "spring boot" },
+  { name: "postgresql", path: pssql, alt: "postgre sql" },
+  { name: "mongo db", path: mdb, alt: "mongo db" },
+
 ];
 
 const SkillComponent = () => {

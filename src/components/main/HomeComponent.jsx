@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 import style from "../../styles/MainComponent.module.css";
 import SlideComponent from "../helper/SlideComponent";
 import DhirajImage from "../../images/dhb.png";
@@ -26,7 +26,11 @@ const HomeComponent = () => {
             <span style={{ color: "#be3144" }}>
               <Typewriter
                 options={{
-                  strings: [ "Software Engineer .", "Front End Developer .", "React Developer ."],
+                  strings: [
+                    "React Developer .",
+                    "Java Developer .",
+                    "Full Stack Developer .",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
