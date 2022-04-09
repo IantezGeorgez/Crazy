@@ -20,7 +20,7 @@ const WorkComponent = () => {
       duration: "1 YEAR 9 MONTHS",
       icon: "js",
       direction: "right",
-      role: "FRONT-END DEVELOPER",
+      role: "FULL STACK DEVELOPER",
     },
     {
       name: "ADD SKILLS",
@@ -28,7 +28,7 @@ const WorkComponent = () => {
       duration: "6 MONTHS",
       icon: "js",
       direction: "down",
-      role: "FRONT-END DEVELOPER",
+      role: "FULL STACK DEVELOPER",
     },
      {
        name: "MINDTREE",
