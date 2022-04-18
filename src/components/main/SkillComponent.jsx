@@ -27,10 +27,10 @@ const data = [
   { name: "react", path: react, alt: "react" },
   { name: "redux", path: redux, alt: "redux" },
   { name: "git", path: git, alt: "git" },
-  { name: "java", path: java, alt: "java" },
-  { name: "spring boot", path: sb, alt: "spring boot" },
-  { name: "postgresql", path: pssql, alt: "postgre sql" },
-  { name: "mongo db", path: mdb, alt: "mongo db" },
+  // { name: "java", path: java, alt: "java" },
+  // { name: "spring boot", path: sb, alt: "spring boot" },
+  // { name: "postgresql", path: pssql, alt: "postgre sql" },
+  // { name: "mongo db", path: mdb, alt: "mongo db" },
 
 ];
 
