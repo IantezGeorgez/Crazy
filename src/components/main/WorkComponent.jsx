@@ -12,7 +12,7 @@ const WorkComponent = () => {
       duration: getSmartQExp(),
       icon: "js",
       direction: "down",
-      role: "FRONT-END DEVELOPER",
+      role: "FRONT END DEVELOPER",
     },
     {
       name: "THIS IS DMG! GmbH",
@@ -30,14 +30,14 @@ const WorkComponent = () => {
       direction: "down",
       role: "FULL STACK DEVELOPER",
     },
-    {
-      name: "MINDTREE",
-      color: "info",
-      duration: "4 YEARS 9 MONTHS",
-      icon: "java",
-      direction: "right",
-      role: "SOFTWARE ENGINEER",
-    },
+    // {
+    //   name: "MINDTREE",
+    //   color: "info",
+    //   duration: "4 YEARS 9 MONTHS",
+    //   icon: "java",
+    //   direction: "right",
+    //   role: "SOFTWARE ENGINEER",
+    // },
   ];
 
   return (
