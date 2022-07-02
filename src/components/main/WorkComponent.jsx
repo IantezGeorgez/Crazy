@@ -22,22 +22,14 @@ const WorkComponent = () => {
       direction: "right",
       role: "FULL STACK DEVELOPER",
     },
-    {
-      name: "ADD SKILLS",
-      color: "info",
-      duration: "6 MONTHS",
-      icon: "js",
-      direction: "down",
-      role: "FULL STACK DEVELOPER",
-    },
-    // {
-    //   name: "MINDTREE",
-    //   color: "info",
-    //   duration: "4 YEARS 9 MONTHS",
-    //   icon: "java",
-    //   direction: "right",
-    //   role: "SOFTWARE ENGINEER",
-    // },
+     {
+       name: "MINDTREE",
+       color: "info",
+       duration: "4 YEARS 9 MONTHS",
+       icon: "java",
+       direction: "right",
+       role: "SOFTWARE ENGINEER",
+     },
   ];
 
   return (

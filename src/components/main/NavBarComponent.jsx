@@ -9,62 +9,53 @@ import CodeIcon from "@mui/icons-material/Code";
 import EmailIcon from "@mui/icons-material/Email";
 import PreviewIcon from "@mui/icons-material/Preview";
 
-const NavBarComponent = ({ resume }) => {
+const NavBarComponent = () => {
   const navigate = useNavigate();
 
-  const [data, setdata] = useState(
-    resume
-      ? [
-          { selected: false, name: "Home", path: "/", icon: <HomeIcon /> },
-          {
-            selected: false,
-            name: "Skills",
-            path: "/skills",
-            icon: <CodeIcon />,
-          },
-          {
-            selected: false,
-            name: "Projects",
-            path: "/projects",
-            icon: <PreviewIcon />,
-          },
-          { selected: false, name: "Work", path: "/work", icon: <WorkIcon /> },
-          {
-            selected: false,
-            name: "Resume",
-            path: "/resume",
-            icon: <AssignmentIcon />,
-          },
-          {
-            selected: false,
-            name: "Contact",
-            path: "/contact",
-            icon: <EmailIcon />,
-          },
-        ]
-      : [
-          { selected: false, name: "Home", path: "/", icon: <HomeIcon /> },
-          {
-            selected: false,
-            name: "Skills",
-            path: "/skills",
-            icon: <CodeIcon />,
-          },
-          {
-            selected: false,
-            name: "Projects",
-            path: "/projects",
-            icon: <PreviewIcon />,
-          },
-          { selected: false, name: "Work", path: "/work", icon: <WorkIcon /> },
-          {
-            selected: false,
-            name: "Contact",
-            path: "/contact",
-            icon: <EmailIcon />,
-          },
-        ]
-  );
+  const [data, setdata] = useState([
+    {
+      selected: false,
+      name: "Home",
+      path: "/",
+      icon: <HomeIcon />,
+      display: true,
+    },
+    {
+      selected: false,
+      name: "Skills",
+      path: "/skills",
+      icon: <CodeIcon />,
+      display: true,
+    },
+    {
+      selected: false,
+      name: "Projects",
+      path: "/projects",
+      icon: <PreviewIcon />,
+      display: true,
+    },
+    {
+      selected: false,
+      name: "Work",
+      path: "/work",
+      icon: <WorkIcon />,
+      display: true,
+    },
+    {
+      selected: false,
+      name: "Resume",
+      path: "/resume",
+      icon: <AssignmentIcon />,
+      display: true,
+    },
+    {
+      selected: false,
+      name: "Contact",
+      path: "/contact",
+      icon: <EmailIcon />,
+      display: true,
+    },
+  ]);
 
   useEffect(() => {
     const url = window.location.href.toString().split("/");
@@ -103,7 +94,7 @@ const NavBarComponent = ({ resume }) => {
         Portfolio{" "}
       </h1>
       <div className={style.navBarComponentListWrapper}>
-        {data.map((oneEntry) => (
+        {data.filter((oneEntry) => oneEntry.display).map((oneEntry) => (
           <NavBarList
             name={oneEntry.name}
             path={oneEntry.path}

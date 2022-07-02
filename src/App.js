@@ -9,19 +9,17 @@ import Work from "./pages/Work";
 import NotFound from "./pages/NotFound";
 import Projects from "./pages/Projects";
 
-function App({ show, resume }) {
+function App() {
   return (
     <div id="main">
       <BrowserRouter>
-        <NavBar resume={resume} />
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="skills" element={<Skills />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="work" element={<Work/>} />
-          {resume ? (
-            <Route path="resume" element={<About show={show} />} />
-          ) : null}
+          <Route path="work" element={<Work />} />
+          <Route path="resume" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

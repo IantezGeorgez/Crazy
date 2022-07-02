@@ -1,13 +1,11 @@
 import { Button, Snackbar } from "@mui/material";
 import React, { useState } from "react";
 import style from "../../styles/MainComponent.module.css";
-import resume from "../../images/dhbr.jpg";
+import resume from "../../images/dhbr.png";
 import resumePdf from "../../images/dhbr.pdf";
-import resumerd from "../../images/dhbrd.jpg";
-import resumePdfrd from "../../images/dhbrd.pdf";
 import SlideComponent from "../helper/SlideComponent";
 
-const ResumeComponent = ({ showtp }) => {
+const ResumeComponent = () => {
   const [show, setShow] = useState(true);
   const [dwn, setDwn] = useState(false);
 
@@ -30,7 +28,7 @@ const ResumeComponent = ({ showtp }) => {
           </Button>
 
           <a
-            href={showtp ? resumePdfrd : resumePdf}
+            href={resumePdf}
             download="dhiraj.pdf"
             style={{ textDecoration: "none" }}
           >
@@ -59,7 +57,7 @@ const ResumeComponent = ({ showtp }) => {
           <div className={style.resumeComponentImageContainer}>
             <img
               className={style.resumeComponentImage}
-              src={showtp ? resumerd : resume}
+              src={resume}
               alt="dhiraj resume"
             />
           </div>
