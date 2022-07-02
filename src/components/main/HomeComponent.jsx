@@ -19,7 +19,7 @@ const HomeComponent = () => {
       <SlideComponent direction="down">
         <div className={style.homeComponentText}>
           <h1 className={style.homeComponentHeading}>
-            I'm <span className={style.fsd}>Dhiraj</span>
+            I'm <span className={style.fsd}>Dhiraj.B</span>
           </h1>
           <div className={style.homeComponentBody}>
             Working as{" "}
@@ -28,8 +28,8 @@ const HomeComponent = () => {
                 options={{
                   strings: [
                     "React Developer .",
-                    "Front End Developer .",
-                    "Software Developer .",
+                    "Java Backend Developer .",
+                    "Full Stack Developer .",
                   ],
                   autoStart: true,
                   loop: true,

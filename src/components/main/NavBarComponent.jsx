@@ -32,7 +32,7 @@ const NavBarComponent = () => {
       name: "Projects",
       path: "/projects",
       icon: <PreviewIcon />,
-      display: true,
+      display: false,
     },
     {
       selected: false,
@@ -46,7 +46,7 @@ const NavBarComponent = () => {
       name: "Resume",
       path: "/resume",
       icon: <AssignmentIcon />,
-      display: true,
+      display: false,
     },
     {
       selected: false,
