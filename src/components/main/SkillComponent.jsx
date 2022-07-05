@@ -16,7 +16,6 @@ import sb from "../../images/skills/springBoot.png";
 import dw from "../../images/skills/dropwizard.png";
 import pssql from "../../images/skills/pssql.png";
 import mdb from "../../images/skills/mongo.png";
-import sel from "../../images/skills/selenium.png";
 
 const data = [
   { name: "html", path: html, alt: "html" },
@@ -34,8 +33,6 @@ const data = [
   { name: "postgresql", path: pssql, alt: "postgre sql" },
   { name: "mongo db", path: mdb, alt: "mongo db" },
   { name: "git", path: git, alt: "git" },
-  { name: "selenium", path: sel, alt: "selenium" },
-
 ];
 
 const SkillComponent = () => {
