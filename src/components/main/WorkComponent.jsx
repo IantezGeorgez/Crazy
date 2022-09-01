@@ -25,7 +25,7 @@ const WorkComponent = () => {
      {
        name: "MINDTREE",
        color: "info",
-       duration: "4 YEARS 9 MONTHS",
+       duration: "4 YEARS 10 MONTHS",
        icon: "java",
        direction: "right",
        role: "SOFTWARE ENGINEER",
