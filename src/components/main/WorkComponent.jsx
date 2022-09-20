@@ -12,7 +12,7 @@ const WorkComponent = () => {
       duration: getSmartQExp(),
       icon: "js",
       direction: "down",
-      role: "FRONT END DEVELOPER",
+      role: "REACT DEVELOPER",
     },
     {
       name: "THIS IS DMG! GmbH",
