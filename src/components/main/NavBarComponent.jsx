@@ -7,7 +7,7 @@ import AssignmentIcon from "@mui/icons-material/Assignment";
 import WorkIcon from "@mui/icons-material/Work";
 import CodeIcon from "@mui/icons-material/Code";
 import EmailIcon from "@mui/icons-material/Email";
-import PreviewIcon from "@mui/icons-material/Preview";
+
 
 const NavBarComponent = () => {
   const navigate = useNavigate();
@@ -26,13 +26,6 @@ const NavBarComponent = () => {
       path: "/skills",
       icon: <CodeIcon />,
       display: true,
-    },
-    {
-      selected: false,
-      name: "Projects",
-      path: "/projects",
-      icon: <PreviewIcon />,
-      display: false,
     },
     {
       selected: false,

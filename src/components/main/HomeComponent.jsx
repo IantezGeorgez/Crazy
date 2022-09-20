@@ -19,16 +19,16 @@ const HomeComponent = () => {
       <SlideComponent direction="down">
         <div className={style.homeComponentText}>
           <h1 className={style.homeComponentHeading}>
-            I'm <span className={style.fsd}>Dhiraj.B</span>
+            I'm <span className={style.fsd}>Dhiraj</span>
           </h1>
           <div className={style.homeComponentBody}>
-            Working as{" "}
+            Professional {" "}
             <span style={{ color: "#be3144" }}>
               <Typewriter
                 options={{
                   strings: [
                     "React Developer .",
-                    "Java Backend Developer .",
+                    "Java Developer .",
                     "Full Stack Developer .",
                   ],
                   autoStart: true,

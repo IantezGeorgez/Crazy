@@ -16,23 +16,25 @@ import sb from "../../images/skills/springBoot.png";
 import dw from "../../images/skills/dropwizard.png";
 import pssql from "../../images/skills/pssql.png";
 import mdb from "../../images/skills/mongo.png";
+import sel from "../../images/skills/selenium.png";
 
 const data = [
   { name: "html", path: html, alt: "html" },
   { name: "css", path: css, alt: "css" },
   { name: "sass", path: sass, alt: "sass" },
-  { name: "bootstrap", path: bootstrap, alt: "bootstrap" },
-  { name: "ant design", path: ant, alt: "ant" },
   { name: "material ui", path: mui, alt: "mui" },
+  { name: "ant design", path: ant, alt: "ant" },
+  { name: "bootstrap", path: bootstrap, alt: "bootstrap" },
   { name: "javascript", path: js, alt: "js" },
   { name: "react", path: react, alt: "react" },
   { name: "redux", path: redux, alt: "redux" },
+  { name: "git", path: git, alt: "git" },
   { name: "java", path: java, alt: "java" },
   { name: "spring boot", path: sb, alt: "spring boot" },
   { name: "dropwizard", path: dw, alt: "dropwizard" },
   { name: "postgresql", path: pssql, alt: "postgre sql" },
   { name: "mongo db", path: mdb, alt: "mongo db" },
-  { name: "git", path: git, alt: "git" },
+  { name: "selenium", path: sel, alt: "Selenium" },
 ];
 
 const SkillComponent = () => {
