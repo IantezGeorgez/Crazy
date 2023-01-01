@@ -1,6 +1,6 @@
 import { Timeline } from "@mui/lab";
 import React from "react";
-import { getSmartQExp } from "../../service/Calulation";
+import { getCurrentExp} from "../../service/Calulation";
 import style from "../../styles/MainComponent.module.css";
 import TimeLineComponent from "../helper/TimeLineComponent";
 
@@ -9,7 +9,7 @@ const WorkComponent = () => {
     {
       name: "SMARTQ",
       color: "success",
-      duration: getSmartQExp(),
+      duration: getCurrentExp(2022),
       icon: "js",
       direction: "down",
       role: "REACT DEVELOPER",
@@ -25,7 +25,7 @@ const WorkComponent = () => {
      {
        name: "MINDTREE",
        color: "info",
-       duration: "4 YEARS 10 MONTHS",
+       duration: "5 YEARS",
        icon: "java",
        direction: "right",
        role: "SOFTWARE ENGINEER",

@@ -28,8 +28,8 @@ const HomeComponent = () => {
                 options={{
                   strings: [
                     "React Developer .",
-                    "Java Developer .",
-                    "Full Stack Developer .",
+                    "Software Engineer .",
+                    "Frontend Developer .",
                   ],
                   autoStart: true,
                   loop: true,
