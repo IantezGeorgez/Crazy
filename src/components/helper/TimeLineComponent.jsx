@@ -30,7 +30,7 @@ const TimeLineComponent = (props) => {
       <TimelineItem
         style={
           props.tl.color === "success"
-            ? { color: "#be3144" }
+            ? { color: "#f2aa4c" }
             : { color: "white" }
         }
         onMouseEnter={() => setShow(!show)}

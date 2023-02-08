@@ -4,7 +4,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
-import { ReactComponent as WhatsApp } from "../../images/wa.svg";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import SlideComponent from "../helper/SlideComponent";
 
 const ContactComponent = () => {
@@ -41,9 +41,9 @@ const ContactComponent = () => {
             href="https://wa.me/918880093594"
             target="_blank"
             rel="noreferrer"
-            title="CLICK TO SEND WATSAPP MESSAGE"
+            title="WHATSAPP"
           >
-            <WhatsApp className={style.contactComponentIconWa} />
+            <WhatsAppIcon className={style.contactComponentIcon} />
           </a>
           <a
             className={style.contactComponentLink}

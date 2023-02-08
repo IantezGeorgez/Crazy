@@ -1,7 +1,7 @@
 .nav {
   height: 100vh;
   width: 25%;
-  background-color:#111111;
+  background-color:#080b0f;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -19,7 +19,7 @@
 @media screen and (max-width : 1024px){
   .nav {
     height: 10vh;
-    background-color:#111111;
+    background-color:#080b0f;
     position: fixed;
     width: 100%;
     top: 0px;

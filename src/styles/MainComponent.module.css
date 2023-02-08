@@ -35,8 +35,8 @@
 
 .notFoundComponentButton {
   font-family: "Raleway", sans-serif !important;
-  color: #be3144 !important;
-  border-color: #be3144 !important;
+  color: #f2aa4c !important;
+  border-color: #f2aa4c !important;
 }
 
 .navBarComponentHOne {
@@ -99,30 +99,16 @@
 }
 
 .homeComponentImage {
-  background-color: silver;
   border-radius: 50%;
-  box-shadow: 0 0 0 9px hsl(0deg 0% 100% / 30%);
+  box-shadow: 0 0 0 4px #f2aa4c;
   max-width: 100%;
   height: auto;
 }
 
 .fsd {
-  animation: fs 2s linear 0s infinite alternate;
+  color:#f2aa4c
 }
 
-@keyframes fs {
-  0% {
-    color: #be3144;
-  }
-
-  50% {
-    color: #c05866;
-  }
-
-  100% {
-    color: white;
-  }
-}
 
 .skillComponent {
   display: grid;
@@ -152,8 +138,8 @@
   width: 15rem;
   display: block !important;
   font-family: "Raleway", sans-serif !important;
-  color: #be3144 !important;
-  border-color: #be3144 !important;
+  color: #f2aa4c !important;
+  border-color: #f2aa4c !important;
 }
 
 .resumeComponentImageContainer {
@@ -186,12 +172,8 @@
 }
 
 .contactComponentIcon {
-  color: #be3144;
+  color: #f2aa4c;
   font-size: 4rem !important;
-}
-
-.contactComponentIconWa {
-  height: 100%;
 }
 
 .projectComponent {

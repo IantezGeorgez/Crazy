@@ -12,7 +12,7 @@ const HomeComponent = () => {
           <img
             className={style.homeComponentImage}
             src={DhirajImage}
-            alt="Dhiraj in a boat"
+            alt="dhiraj on hill"
           />
         </div>
       </SlideComponent>
@@ -23,7 +23,7 @@ const HomeComponent = () => {
           </h1>
           <div className={style.homeComponentBody}>
             Professional {" "}
-            <span style={{ color: "#be3144" }}>
+            <span style={{ color: "#f2aa4c" }}>
               <Typewriter
                 options={{
                   strings: [

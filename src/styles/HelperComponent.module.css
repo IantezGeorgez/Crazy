@@ -8,13 +8,13 @@
 }
 
 .activeNavBar {
-  color: #be3144;
+  color: #f2aa4c;
 }
 
 .iconNameNavBar:hover {
   cursor: pointer;
   letter-spacing: 1.5px;
-  color: #be3144;
+  color: #f2aa4c;
 }
 
 .nameNavBar {
@@ -23,11 +23,11 @@
 }
 
 .timeLineInactive {
-  color: #181719;
+  color: #101820;
 }
 
 .timeLineActiveCurrect {
-  color: #be3144;
+  color: #f2aa4c;
 }
 .timeLineActive {
   color: white;
@@ -53,13 +53,14 @@
 
 .oneSkill {
   text-align: center;
-  border: 1px solid #b2b2b2;
+  border: 2px dotted #213242;
+  border-radius: 10px;
 }
 
 .oneSkillText {
   font-family: "Raleway", sans-serif !important;
   text-transform: uppercase;
-  color: #be3144;
+  color: #f2aa4c;
 }
 
 .oneSkillImage {
@@ -77,12 +78,12 @@
 }
 
 .oneProjectCardContent {
-  background-color: #181719;
+  background-color: #101820;
   font-family: "Raleway", sans-serif !important;
 }
 
 .oneProjectCardContentHeading {
-  color: #be3144 !important;
+  color: #f2aa4c !important;
   font-family: "Raleway", sans-serif !important;
   text-align: center;
 }
@@ -93,8 +94,8 @@
 }
 
 .oneProjectCardContentButton {
-  color: #be3144 !important;
-  border-color: #be3144 !important;
+  color: #f2aa4c !important;
+  border-color: #f2aa4c !important;
   font-family: "Raleway", sans-serif !important;
   margin-bottom: 2% !important;
 }
