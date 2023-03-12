@@ -17,6 +17,9 @@ import dw from "../../images/skills/dropwizard.png";
 import pssql from "../../images/skills/pssql.png";
 import mdb from "../../images/skills/mongo.png";
 import sel from "../../images/skills/selenium.png";
+import gc from "../../images/skills/gc.png";
+import reactNative from "../../images/skills/reactNative.png";
+import firebase from "../../images/skills/firebase.png"
 
 const data = [
   { name: "html", path: html, alt: "html" },
@@ -28,7 +31,10 @@ const data = [
   { name: "javascript", path: js, alt: "js" },
   { name: "react", path: react, alt: "react" },
   { name: "redux", path: redux, alt: "redux" },
+  { name: "react Native", path: reactNative, alt: "react Native" },
+  { name: "firebase", path: firebase, alt: "Firebase" },
   { name: "git", path: git, alt: "git" },
+  { name: "google cloud", path: gc, alt: "google cloud" },
   { name: "java", path: java, alt: "java" },
   { name: "spring boot", path: sb, alt: "spring boot" },
   { name: "dropwizard", path: dw, alt: "dropwizard" },
