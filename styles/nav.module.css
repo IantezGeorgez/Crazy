@@ -1,0 +1,149 @@
+.nav {
+  height: 100vh;
+  width: 25%;
+  background-color: #080b0f;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.navContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navComponentImageContainer:hover {
+  cursor: pointer;
+}
+
+.navComponentImageContainer {
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 75%;
+}
+
+.navComponentImage {
+  border-radius: 50%;
+  box-shadow: 0 0 9px 6px #f2aa4c;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  left: 14px;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 7%;
+}
+
+.oneNavLink {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.oneNavLink:hover {
+  cursor: pointer;
+  animation-name: linkNameAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+@keyframes linkNameAnimation {
+  0% {
+    color: #f2aa4c;
+  }
+
+  20% {
+    color: #f2aa4c;
+  }
+
+  40% {
+    color: #b2b2b2;
+  }
+
+  60% {
+    color: #b2b2b2;
+  }
+
+  80% {
+    color: #f2aa4c;
+  }
+
+  100% {
+    color: #f2aa4c;
+  }
+}
+.navLinkText {
+  text-transform: capitalize;
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+}
+
+.navBarComponentFooter {
+  color: #b2b2b2;
+  position: relative;
+  top: 7%;
+}
+
+.navBarComponentFooter > a {
+  text-decoration: none;
+  color: #b2b2b2;
+}
+
+@media screen and (max-width: 1000px) {
+  .navComponentImageContainer {
+    padding: 0rem;
+  }
+
+  .navBarComponentFooter {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navComponentImageContainer,
+  .navBarComponentFooter {
+    display: none;
+  }
+
+  .nav {
+    height: 10vh;
+    width: 100%;
+  }
+
+  .navList {
+    flex-direction: row;
+    position: static;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .oneNavLink {
+    margin-bottom: 0px;
+  }
+
+  .navLinkText {
+    margin-left: 0.7rem;
+    font-size: 1.7rem;
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .oneNavLink > div:nth-child(2) {
+    display: none;
+  }
+}

@@ -1,0 +1,143 @@
+.homePage {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.homeComponent {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 75%;
+  margin-left: 25%; /* because of nav bar */
+}
+
+.homeComponentImageContainer {
+  margin: 3rem auto;
+  width: 50%;
+  display: none;
+}
+
+.homeComponentImage {
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px 6px #f2aa4c;
+  max-width: 100%;
+  height: auto;
+}
+
+.homeComponentText {
+  padding: 1.7rem;
+}
+
+.homeComponentHeadingSub {
+  font-size: 48px;
+  text-align: center;
+  -webkit-text-stroke: 2px #f2aa4c;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: transparent;
+}
+
+.name {
+  color: #f2aa4c;
+}
+
+.homeComponentBody {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.homeComponentBodyLastPoint {
+  font-size: 2rem;
+  font-weight: 400;
+  display: none;
+}
+
+.homeComponentBodyTypewritter {
+  font-size: 1.8rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.homeComponentBodyTypewritter div:nth-child(3) {
+  color: #f2aa4c;
+  position: relative;
+  left: 1rem;
+}
+
+.homeComponentParagraphWrapper {
+  text-align: justify;
+}
+
+.paraOne {
+  padding-right: 1rem;
+}
+
+.paraTwo {
+  padding-right: 1.8rem;
+}
+
+.paraThree {
+  padding-right: 1.5rem;
+}
+
+.paraFour {
+  padding-right: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .homeComponentBody {
+    font-size: 1.8rem;
+  }
+  .homeComponentBodyTypewritter {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .homePage {
+    flex-direction: column;
+  }
+
+  .homeComponent {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 10vh;
+    height: 100vh;
+  }
+
+  .homeComponentImageContainer {
+    display: block;
+  }
+
+  .homeComponentBody {
+    font-size: 2.2rem;
+  }
+  .homeComponentBodyTypewritter {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .homeComponentBodyLastPoint {
+    display: block;
+  }
+
+  .homeComponentBodyTypewritter {
+    display: none;
+  }
+
+  .homeComponentBody {
+    font-size: 2rem;
+  }
+
+  .homeComponentParagraphWrapper {
+    text-align: start;
+  }
+
+  .homeComponentImageContainer {
+    width: 90%;
+  }
+}

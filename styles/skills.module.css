@@ -1,0 +1,68 @@
+.skillsPage {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.skillComponentWrapper {
+  width: 75%;
+  margin-left: 25%;
+}
+
+.skillsComponentHeadingSub {
+  font-size: 48px;
+  text-align: center;
+  -webkit-text-stroke: 2px #f2aa4c;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: transparent;
+}
+
+.skillComponent {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  gap: 2rem 1rem;
+  justify-content: space-evenly;
+}
+
+.oneSkill {
+  text-align: center;
+  border: 2px dotted #213242;
+  border-radius: 10px;
+}
+
+.oneSkillText {
+  font-family: "Raleway", sans-serif !important;
+  text-transform: uppercase;
+  color: #f2aa4c;
+}
+
+.oneSkillImage {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .skillComponent {
+    grid-template-columns: repeat(3, 30%);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .skillPage {
+    flex-direction: column;
+  }
+
+  .skillComponentWrapper {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 12vh;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .skillComponent {
+    grid-template-columns: repeat(2, 45%);
+  }
+}
