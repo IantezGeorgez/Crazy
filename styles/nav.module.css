@@ -102,7 +102,7 @@
   color: #b2b2b2;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .navComponentImageContainer {
     width: 75%;
   }

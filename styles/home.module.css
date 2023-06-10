@@ -87,7 +87,7 @@
   padding-right: 2rem;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .homeComponentHeadingSub {
     font-size: 3rem;
   }

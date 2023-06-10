@@ -47,7 +47,7 @@
   font-size: 7rem !important;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .contactComponentHeadingSub {
     font-size: 3rem;
   }

@@ -42,7 +42,7 @@
   height: auto;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .skillsComponentHeadingSub {
     font-size: 3rem;
   }

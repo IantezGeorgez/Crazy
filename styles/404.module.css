@@ -29,7 +29,7 @@
   font-size: 2rem;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .notFoundComponentHOne {
     font-size: 10rem;
   }
