@@ -45,7 +45,7 @@
   font-size: 1.8rem !important;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .workComponentHeadingSub {
     font-size: 3rem;
   }
