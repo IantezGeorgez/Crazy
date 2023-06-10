@@ -23,12 +23,12 @@
 .navComponentImageContainer {
   padding: 1rem;
   box-sizing: border-box;
-  width: 75%;
+  width: 80%;
 }
 
 .navComponentImage {
   border-radius: 50%;
-  box-shadow: 0 0 9px 6px #f2aa4c;
+  box-shadow: 0 0 12px 9px #f2aa4c;
   max-width: 100%;
   height: auto;
   position: relative;
@@ -88,7 +88,7 @@
   text-transform: capitalize;
   text-align: left;
   margin-left: 1rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 
 .navBarComponentFooter {
@@ -102,17 +102,21 @@
   color: #b2b2b2;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .navComponentImageContainer {
-    padding: 0rem;
+    width: 75%;
+  }
+
+  .navLinkText {
+    font-size: 1.25rem;
   }
 
   .navBarComponentFooter {
-    font-size: 0.8rem;
+    top: 6%;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .navComponentImageContainer,
   .navBarComponentFooter {
     display: none;
@@ -142,7 +146,7 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .oneNavLink > div:nth-child(2) {
     display: none;
   }

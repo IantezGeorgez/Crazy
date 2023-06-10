@@ -10,7 +10,7 @@
 }
 
 .skillsComponentHeadingSub {
-  font-size: 48px;
+  font-size: 4rem;
   text-align: center;
   -webkit-text-stroke: 2px #f2aa4c;
   text-transform: uppercase;
@@ -20,7 +20,7 @@
 
 .skillComponent {
   display: grid;
-  grid-template-columns: repeat(4, 20%);
+  grid-template-columns: repeat(4, 23%);
   gap: 2rem 1rem;
   justify-content: space-evenly;
 }
@@ -42,15 +42,23 @@
   height: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
+  .skillsComponentHeadingSub {
+    font-size: 3rem;
+  }
+
   .skillComponent {
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(4, 23%);
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .skillPage {
     flex-direction: column;
+  }
+
+  .skillComponent {
+    grid-template-columns: repeat(3, 30%);
   }
 
   .skillComponentWrapper {
@@ -61,7 +69,7 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .skillComponent {
     grid-template-columns: repeat(2, 45%);
   }

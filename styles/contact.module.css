@@ -14,7 +14,7 @@
 }
 
 .contactComponentHeadingSub {
-  font-size: 48px;
+  font-size: 4rem;
   text-align: center;
   -webkit-text-stroke: 2px #f2aa4c;
   text-transform: uppercase;
@@ -23,17 +23,17 @@
 }
 
 .contactComponentHone {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 1%;
 }
 
 .contactComponentHfour {
-  font-size: 2rem;
+  font-size: 4rem;
   margin: 2% 0% 4% 0%;
 }
 
 .contactComponentIcons {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -44,20 +44,28 @@
 
 .contactComponentIcon {
   color: #f2aa4c;
-  font-size: 4rem !important;
+  font-size: 7rem !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
+  .contactComponentHeadingSub {
+    font-size: 3rem;
+  }
+
   .contactComponentHone {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   .contactComponentHfour {
-    font-size: 1.5rem;
+    font-size: 3rem;
+  }
+
+  .contactComponentIcon {
+    font-size: 5rem !important;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .contactPage {
     flex-direction: column;
   }
@@ -80,18 +88,20 @@
   }
 }
 
-@media screen and (max-width: 576px) {
-  .contactComponentHone,
+@media screen and (max-width: 600px) {
+  .contactComponentHone {
+    font-size: 2rem;
+  }
+
   .contactComponentHfour {
-    text-align: center;
+    font-size: 1.8rem;
   }
 
   .contactComponentIcons {
     width: 100%;
   }
 
-  .contactComponentHeadingSub {
-    position: relative;
-    top: 3%;
+  .contactComponentIcon {
+    font-size: 4.2rem !important;
   }
 }
