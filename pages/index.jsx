@@ -8,7 +8,7 @@ export default function Home({ flag }) {
     <>
       <Head>
         <title>DhirajB7</title>
-        <meta name="description" content="DhirajB7 portfolio" />
+        <meta name="description" content="Home page of portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

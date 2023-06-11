@@ -7,7 +7,7 @@ export default function NotFound({ flag }) {
   return (
     <>
       <Head>
-        <title>Page Not Found</title>
+        <title>DhirajB7 - Page Not Found</title>
         <meta
           name="description"
           content="route is not present or url is worng"
