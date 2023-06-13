@@ -1,7 +1,7 @@
 import { Button, Snackbar } from "@mui/material";
 import React, { useState } from "react";
 import style from "../../styles/resume.module.css";
-import resume from "../../public/image/dhbr.png";
+import resume from "../../public/image/Dhiraj_Resume.png";
 import SlideComponent from "../helper/SlideComponent";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,8 +17,8 @@ const ResumePageComponent = () => {
       <SlideComponent direction="down">
         <div className={style.resumeComponentButtonContainer}>
           <Link
-            href="/image/dhbr.pdf"
-            download="dhiraj.pdf"
+            href="/image/Dhiraj_Resume.pdf"
+            download="Dhiraj_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none" }}
@@ -49,7 +49,7 @@ const ResumePageComponent = () => {
           <Image
             className={style.resumeComponentImage}
             src={resume}
-            alt="dhiraj resume"
+            alt="Dhiraj_Resume"
           />
         </div>
       </SlideComponent>
