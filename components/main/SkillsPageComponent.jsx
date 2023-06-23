@@ -5,6 +5,7 @@ import js from "../../public/image/skills/js.png";
 import sass from "../../public/image/skills/sass.png";
 import react from "../../public/image/skills/react.png";
 import redux from "../../public/image/skills/redux.png";
+import nextjs from "../../public/image/skills/nextjs.png";
 import mui from "../../public/image/skills/mui.png";
 import ant from "../../public/image/skills/ant.png";
 import bootstrap from "../../public/image/skills/bootstrap.png";
@@ -16,7 +17,6 @@ import pssql from "../../public/image/skills/pssql.png";
 import mdb from "../../public/image/skills/mongo.png";
 import sel from "../../public/image/skills/selenium.png";
 import gc from "../../public/image/skills/gc.png";
-import reactNative from "../../public/image/skills/reactNative.png";
 import firebase from "../../public/image/skills/firebase.png";
 import OneSkill from "../helper/OneSkill";
 import styles from "../../styles/skills.module.css";
@@ -32,7 +32,7 @@ const data = [
   { name: "javascript", path: js, alt: "js" },
   { name: "react", path: react, alt: "react" },
   { name: "redux", path: redux, alt: "redux" },
-  { name: "react Native", path: reactNative, alt: "react Native" },
+  { name: "next JS", path: nextjs, alt: "next js" },
   { name: "firebase", path: firebase, alt: "Firebase" },
   { name: "git", path: git, alt: "git" },
   { name: "google cloud", path: gc, alt: "google cloud" },
