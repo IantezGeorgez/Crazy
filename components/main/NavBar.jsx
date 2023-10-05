@@ -72,13 +72,13 @@ const NavBar = ({ flag }) => {
           />
         </div>
         <p className={styles.navBarComponentFooter}>
-          Developed with ❤️ by{" "}
+          Developed with ❤️ by the developer 
           <a
-            href="https://www.linkedin.com/in/dhirajb7/"
+            href="https://https://smtechofc1.blogspot.com/"
             target="_blank"
             rel="noreferrer"
           >
-            DhirajB7
+            thedeveloper03
           </a>
         </p>
       </div>
