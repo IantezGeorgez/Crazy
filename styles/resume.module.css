@@ -30,11 +30,14 @@
 .resumeComponentImageContainer {
   margin: 5rem;
   padding-bottom: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .resumeComponentImage {
   width: 100%;
   height: auto;
+  zoom: 1;
 }
 
 .resumeComponentHeadingSub {
