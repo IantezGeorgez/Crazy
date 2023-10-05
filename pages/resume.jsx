@@ -7,7 +7,7 @@ export default function Resume({ flag }) {
   return (
     <>
       <Head>
-        <title>DhirajB7 - Resume</title>
+        <title>SM developer - Resume</title>
         <meta
           name="description"
           content="Resume can be seen & downloaded in this page"
