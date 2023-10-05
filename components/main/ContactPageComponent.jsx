@@ -22,7 +22,7 @@ const ContactPageComponent = () => {
         <div className={style.contactComponentIcons}>
           <Link
             className={style.contactComponentLink}
-            href="https://www.linkedin.com/in/dhirajb7/"
+            href="https://bio.site/the_developer"
             target="_blank"
             rel="noreferrer"
             title="LINKEDIN"
@@ -31,7 +31,7 @@ const ContactPageComponent = () => {
           </Link>
           <Link
             className={style.contactComponentLink}
-            href="https://github.com/DhirajB7"
+            href="https://github.com/thedeveloper03"
             target="_blank"
             rel="noreferrer"
             title="GITHUB"
@@ -40,7 +40,7 @@ const ContactPageComponent = () => {
           </Link>
           <Link
             className={style.contactComponentLink}
-            href="https://wa.me/918880093594"
+            href="https://wa.me/256709824720"
             target="_blank"
             rel="noreferrer"
             title="WHATSAPP"
@@ -58,7 +58,7 @@ const ContactPageComponent = () => {
           </Link>
           <Link
             className={style.contactComponentLink}
-            href="mailto:dhiraj.basavaraju@gmail.com"
+            href="mailto: smtechofcmods@gmail.com"
             target="_blank"
             rel="noreferrer"
             title="CLICK TO SEND MAIL"
