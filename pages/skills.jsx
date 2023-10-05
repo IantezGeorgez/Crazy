@@ -7,7 +7,7 @@ export default function Skills({ flag }) {
   return (
     <>
       <Head>
-        <title>DhirajB7 - Skills</title>
+        <title>thedeveloper- Skills</title>
         <meta
           name="description"
           content="Technical Skills details in this page"
