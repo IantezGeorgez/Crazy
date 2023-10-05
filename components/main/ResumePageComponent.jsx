@@ -1,7 +1,7 @@
 import { Button, Snackbar } from "@mui/material";
 import React, { useState } from "react";
 import style from "../../styles/resume.module.css";
-import resume from "../../public/image/Dhiraj_Resume.png";
+import resume from "../../public/image/profile-2~2.png";
 import SlideComponent from "../helper/SlideComponent";
 import Image from "next/image";
 import Link from "next/link";
