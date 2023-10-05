@@ -7,7 +7,7 @@ export default function Contact({ flag }) {
   return (
     <>
       <Head>
-        <title>DhirajB7 - Contact</title>
+        <title>SM developer - Contact</title>
         <meta
           name="description"
           content="Contact details can be found in this page"
