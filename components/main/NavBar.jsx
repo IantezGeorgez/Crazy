@@ -8,7 +8,7 @@ import CodeIcon from "@mui/icons-material/Code";
 import ContactIcon from "@mui/icons-material/Email";
 import NavLink from "../helper/NavLink";
 import { useRouter } from "next/router";
-import DhirajImage from "../../public/image/dhb.png";
+import DhirajImage from "../../public/image/fp.png";
 import Image from "next/image";
 
 const NavBar = ({ flag }) => {
