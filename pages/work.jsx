@@ -7,7 +7,7 @@ export default function Work({ flag }) {
   return (
     <>
       <Head>
-        <title>DhirajB7 - Experience</title>
+        <title>the developer- Experience</title>
         <meta
           name="description"
           content="Work experience detials can be found in this page"
