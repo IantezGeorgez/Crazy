@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import styles from "../../styles/home.module.css";
 import SlideComponent from "../helper/SlideComponent";
-import DhirajImage from "../../public/image/dhb.png";
+import DhirajImage from "../../public/image/fp.png";
 import Image from "next/image";
 
 const HomePageComponent = () => {
