@@ -40,7 +40,7 @@ const ContactPageComponent = () => {
           </Link>
           <Link
             className={style.contactComponentLink}
-            href="https://wa.me/256709824720"
+            href="https://wa.me/254791220965"
             target="_blank"
             rel="noreferrer"
             title="WHATSAPP"
@@ -58,7 +58,7 @@ const ContactPageComponent = () => {
           </Link>
           <Link
             className={style.contactComponentLink}
-            href="mailto: smtechofcmods@gmail.com"
+            href="mailto: mainaian129@gmail.com@gmail.com"
             target="_blank"
             rel="noreferrer"
             title="CLICK TO SEND MAIL"
