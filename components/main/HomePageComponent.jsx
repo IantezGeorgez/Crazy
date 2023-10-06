@@ -25,22 +25,23 @@ const HomePageComponent = () => {
           <SlideComponent direction="down">
             <p className={styles.homeComponentBody}>
               <span className={styles.paraOne}>🥷</span>
-              Hello, I'm <span className={styles.name}>the developer</span> a coding
+              Hello, I'm <span className={styles.name}>the decapentari</span> a coding
               ninja with 8 years of experience in the world of web development .
             </p>
           </SlideComponent>
           <SlideComponent direction="up">
             <p className={styles.homeComponentBody}>
               <span className={styles.paraTwo}>⚔️</span>
-              My weapons of choice are React JS, Java with Spring Boot and I'm
-              always ready to tackle any coding challenge that comes my way .
+              My weapons of choice are poetry , spoken words among many other I'm genius
+              when it comes to poetry .
+       
             </p>
           </SlideComponent>
           <SlideComponent direction="down">
             <p className={styles.homeComponentBody}>
               <span className={styles.paraThree}>🎮</span>
               When I'm not slinging code, you can find me binge-watching my
-              favorite shows on Netflix or mastering the latest Xbox games .
+              favorite shows on Netflix or playing PUBG  .
             </p>
           </SlideComponent>
           <SlideComponent direction="right">
